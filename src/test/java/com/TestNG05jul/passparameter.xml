@@ -1,0 +1,8 @@
+<suite parallel = "false"  name="Suite1" >
+	<test name="Afternoon" >
+		<parameter name="n" value="KingKong"></parameter>
+		<classes>
+			<class name = "com.TestNG05jul.passingValue"></class>
+		</classes>
+	</test>
+</suite>

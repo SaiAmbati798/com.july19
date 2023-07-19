@@ -1,0 +1,9 @@
+<suite>
+	<test name = "Test1" parallel="methods" >
+		<classes>
+			<class name = "com.TestNG04jul.TGDemo1">
+			</class>
+		</classes>
+		
+	</test>
+</suite>

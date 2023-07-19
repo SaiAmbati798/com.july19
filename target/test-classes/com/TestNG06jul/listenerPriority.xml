@@ -1,0 +1,12 @@
+<suite name = "Suite10">
+	<listeners>
+		<!--<listener class-name = "com.TestNG06jul.Demo5"></listener>-->
+		<listener class-name = "com.TestNG06jul.IannotaionTransformer"></listener>
+	</listeners>
+	<test name = "Test55">
+		<classes>
+			<class name = "com.TestNG06jul.TransformerTest">
+			</class>
+		</classes>
+	</test>
+</suite>

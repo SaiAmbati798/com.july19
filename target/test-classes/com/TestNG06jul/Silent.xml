@@ -1,0 +1,14 @@
+<suite name = "Suite10">
+	<listeners>
+		<!--<listener class-name = "com.TestNG05jul.Listenersprac"></listener>-->
+		<!--<listener class-name = "com.TestNG06jul.Demo1"></listener>-->
+		<!--<listener class-name = "com.TestNG06jul.Demo3"></listener>-->
+		<listener class-name = "com.TestNG06jul.Listenersprac"></listener>
+	</listeners>
+	<test name = "Test1">
+		<classes>
+			<class name = "com.TestNG06jul.ItestListenersImp">
+			</class>
+		</classes>
+	</test>
+</suite>

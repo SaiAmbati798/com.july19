@@ -1,0 +1,10 @@
+<suite parallel = "false"  name="Suite1" >
+	<test name="Afternoon" >
+		<parameter name="A" value="standard_user"></parameter>
+		<parameter name="B" value="secret_sauce"></parameter>
+		<classes>
+			<class name = "com.TestNG05jul.LaunchGmain">
+			</class>
+		</classes>
+	</test>
+</suite>

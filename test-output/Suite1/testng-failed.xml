@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test thread-count="5" name="Afternoon(failed)">
+    <parameter name="n" value="secret_sauce"/>
+    <classes>
+      <class name="com.TestNG05jul.LaunchGmain">
+        <methods>
+          <include name="Intit"/>
+          <include name="afterTest"/>
+          <include name="selProd"/>
+          <include name="LaunchUrl"/>
+          <include name="Prov_Cre"/>
+        </methods>
+      </class> <!-- com.TestNG05jul.LaunchGmain -->
+    </classes>
+  </test> <!-- Afternoon(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

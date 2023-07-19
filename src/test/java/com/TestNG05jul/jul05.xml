@@ -1,0 +1,11 @@
+<suite name = "Suite1">
+	<test name = "jul05" >
+		<classes>
+			<class name = "com.TestNG04jul.Car">
+			</class>
+			<class name = "com.TestNG05jul.LaunchGmain">
+			</class>
+		</classes>
+		
+	</test>
+</suite>
